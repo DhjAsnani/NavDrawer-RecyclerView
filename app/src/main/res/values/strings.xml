@@ -4,21 +4,21 @@
     <string name="drawer_close">Drawer Close</string>
     <string-array name="topics">
         <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
-        <item>LIVE</item>
+        <item>LIVE1</item>
+        <item>LIVE2</item>
+        <item>LIVE3</item>
+        <item>LIVE4</item>
+        <item>LIVE5</item>
+        <item>LIVE6</item>
+        <item>LIVE7</item>
+        <item>LIVE8</item>
+        <item>LIVE9</item>
+        <item>LIVE10</item>
+        <item>LIVE11</item>
+        <item>LIVE12</item>
+        <item>LIVE13</item>
+        <item>LIVE14</item>
+        <item>LIVE15</item>
 
     </string-array>
 </resources>
