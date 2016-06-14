@@ -1,6 +1,7 @@
 package com.example.gohan.navcyclerview;
 
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,7 +11,8 @@ import android.support.v7.widget.Toolbar;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+   // drawerToggle for navDrawer
+    ActionBarDrawerToggle actionBarDrawerToggle;
     Toolbar toolbar;
     RecyclerView recyclerView;
     DrawerLayout drawerLayout;
@@ -37,5 +39,15 @@ public class MainActivity extends AppCompatActivity {
         }
         adapter=new RecyclerAdapter(arrayList);
         recyclerView.setAdapter(adapter);
+        actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.drawer_open,R.string.drawer_close);
+        drawerLayout.setDrawerListener(actionBarDrawerToggle);
+      //  actionBarDrawerToggle.syncState();
+
+    }
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        actionBarDrawerToggle.syncState();
     }
 }
