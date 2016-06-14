@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NavCyclerView</string>
+    <string-array name="topics">
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+        <item>LIVE</item>
+
+    </string-array>
+</resources>
